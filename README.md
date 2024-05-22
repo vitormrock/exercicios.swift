@@ -1,6 +1,6 @@
 # Consumo de Combustível do Carro
 
-Este é o meu primeiro código em Swift! 🎉 Estou começando a programar e este script simples calcula a quantidade de combustível necessária para uma viagem e o custo total para viajar durante uma semana.
+Este é o meu primeiro código em Swift! 🎉 Estou começando a programar, é este script simples calcula a quantidade de combustível necessária para uma viagem e o custo total para viajar durante uma semana.
 
 ## Descrição
 
