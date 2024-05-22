@@ -1,14 +1,15 @@
 //consumo de combustivel do carro 
 
-func mediaDeConsumoDoCarro (distaciaPercorrida: Int, consumoMedioDoCarro: Int) -> Int{
-         return  distaciaPercorrida / consumoMedioDoCarro
+// Consumo de combustivel do carro 
+func mediaDeConsumoDoCarro(distanciaPercorrida: Int, consumoMedioDoCarro: Int) -> Int {
+    return distanciaPercorrida / consumoMedioDoCarro
 }
-var gasolinaNecessaria: Int = mediaDeConsumoDoCarro(distaciaPercorrida:96, consumoMedioDoCarro:13)
 
-var litrosDeGasolinaSemana = gasolinaNecessaria * 5
-var valorGasolinaHoje = 6
+let consumoDiario: Int = mediaDeConsumoDoCarro(distanciaPercorrida: 96, consumoMedioDoCarro: 13)
 
-var valorTotal = litrosDeGasolinaSemana * valorGasolinaHoje
+let consumoSemanal = consumoDiario * 5
+let valorGasolinaHoje = 6
 
- 
- print("Para completar a viagem, são necessários \(gasolinaNecessaria) litros de gasolina. Sendo assim, é necessário um valor de R$\(valorTotal) para viajar durante uma semana.")
+let valorTotal = consumoSemanal * valorGasolinaHoje
+
+print("Para completar a viagem, são necessários \(consumoDiario) litros de gasolina. Sendo assim, é necessário um valor de R$\(valorTotal) para viajar durante uma semana.")
